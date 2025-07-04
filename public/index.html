@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang=ru >
+<head>
+	<title>Лакокрасочные материалы</title>
+	<link rel="stylesheet" href="style.css" >
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+
+	<header>
+		<div class="header-container">
+			<a href="index.html"><img src="static/logo.png" alt="Логотип" class="logopic"></a>
+			<div class="header-info">
+				<p>Свяжитесь с нами | </p>
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+				</svg>
+				<span> +7 (123) 456-78-90 </span>
+			</div>
+			<div class = "zav">
+				<p><a href = "connect.php">Оставьте заявку</a></p>
+				<div class="cart-container">
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
+						<path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1"/>
+					</svg>
+					<span class="cart-count">0</span>
+					<div class="cart-dropdown">
+						<div class="cart-items">
+							<!-- Здесь будут отображаться товары -->
+						</div>
+						<div class="cart-total">
+							Итого: <span class="cart-total-price">0</span> руб.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<nav>
+		<a href="index.html">Главная</a>
+		<a href="about.html">О компании</a>
+		<a href="products.php">Продукция</a>
+		<a href="add_product_form.php">Добавить продукт</a>
+	</nav>
+
+	<main>
+
+		<div class="slider">
+			<div class="slides">
+				<div class="slide" id="s1"><img src="static/FirstSlide.jpg" alt="Слайд 1">
+					<div class="slide-text">ПРОИЗВОДСТВО ВЫСОКОКАЧЕСТВЕННОЙ КРАСКИ</div>
+				</div>
+				<div class="slide" id="s2"><img src="static/SecondSlide.jpg" alt="Слайд 2">
+					<div class="slide-text">ГАРАНТИЯ НА ВСЕ ТОВАРЫ</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="garants">
+			<div class="garant">
+				<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bus-front-fill" viewBox="0 0 16 16">
+					<path d="M16 7a1 1 0 0 1-1 1v3.5c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.5 2.5 0 0 1-1-2V8a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1V2.64C1 1.452 1.845.408 3.064.268A44 44 0 0 1 8 0c2.1 0 3.792.136 4.936.268C14.155.408 15 1.452 15 2.64V4a1 1 0 0 1 1 1zM3.552 3.22A43 43 0 0 1 8 3c1.837 0 3.353.107 4.448.22a.5.5 0 0 0 .104-.994A44 44 0 0 0 8 2c-1.876 0-3.426.109-4.552.226a.5.5 0 1 0 .104.994M8 4c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9s3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44 44 0 0 0 8 4m-3 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0m8 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m-7 0a1 1 0 0 0 1 1h2a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1"/>
+				</svg>
+				<h3>Быстрая доставка</h3>
+			</div>
+			<div class="garant">
+				<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0"/>
+					<path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z"/>
+					<path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z"/>
+					<path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567"/>
+				</svg>
+				<h3>Доступные цены</h3>
+			</div>
+			<div class="garant">
+				<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmark-check" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+					<path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+				</svg>
+				<h3>Гарантия на все товары</h3>
+			</div>
+		</div>
+
+		<hr>
+
+		<h2>Наша продукция</h2>
+
+		<div class = "products">
+			<a href = "products.php"><div class="card">
+				<img src="static/лаки.jpeg" alt="Товар 1">
+				<h3>Лаки</h3>
+			</div></a>
+			<a href = "products.php"><div class="card">
+				<img src="static/краски.jpg" alt="Товар 2">
+				<h3>Краски</h3>
+			</div></a>
+			<a href = "products.php"><div class="card">
+				<img src="static/морилки.jpg" alt="Товар 3">
+				<h3>Морилки</h3>
+			</div></a>
+
+		</div>
+
+		<hr>
+
+		<div class="info">
+			<img src="static/завод1.png" alt="Фоновое изображение" class="background-image">
+			<div class="text">
+				<h2>НАША КОМПАНИЯ</h2>
+				<a href="about.html" class="button">Узнать больше</a>
+			</div>
+		</div>
+
+	</main>
+
+	<footer>
+		<div class = "footer">
+			<div>
+				<h3>Продукция</h3>
+				<ul>
+					<li>Лаки</li>
+					<li>Краски</li>
+					<li>Морилки</li>
+					<li>Колеровка</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Компания</h3>
+				<ul>
+					<li>О компании</li>
+					<li>Партнеры</li>
+					<li>Реквизиты</li>
+					<li>Вакансии</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Закупки</h3>
+				<ul>
+					<li>Доставка</li>
+					<li>Контакты</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Контакты</h3>
+				<ul>
+					<li>+7 (123) 456-78-90</li>
+					<li>+7 (343) 379-49-42</li>
+					<li>+7 (343) 125-42-42</li>
+				</ul>
+				<br>
+				<p><a href="mailto:lacocras@mail.ru">lacocras@mail.ru</a></p>
+			</div>
+		</div>
+
+
+		<div class="footer-bottom">
+			<p>&copy; 2025 ООО "ЛАКОКРАС". Все права защищены.</p>
+		</div>
+
+	</footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
